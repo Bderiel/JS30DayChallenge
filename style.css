@@ -22,22 +22,24 @@ body{
     justify-content: center;
 }
 
+.hand{
+    width: 130px;
+    height: 6px;
+    top: 50%;
+    margin-left: 70px;
+    transform: rotate(270deg);
+    transform-origin: 0%;
+    position: absolute;
+}
+
 #hour{
-    border-left: 2px black solid;
-    width: 3px;
-    margin-top: 70px;
-    height: 130px;
+    background: red;
 }
 
 #min{
-    border-left: 2px black solid;
-    width: 2px;
-    margin-top: 30px;
-    height: 170px;
+  background: goldenrod;
 }
 
 #sec{
-    border-top: 2px black solid;
-    width: 1px;
-    height: 200px;
+   background:black;
 }
