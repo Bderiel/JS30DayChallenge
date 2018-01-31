@@ -1,0 +1,46 @@
+:root {
+  --main: goldenrod;
+  --blur:blur(0px);
+  --space:80%;
+}
+
+
+body{
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+#inputs{
+  justify-content: center;
+  height: 100%;
+}
+
+.varible{
+  text-align: center;
+}
+
+.photo{
+  justify-content: center;
+}
+
+.frame{
+  justify-content: center;
+  align-items: center;
+  background: var(--main);
+  border-radius: 8px;
+  filter: var(--blur);
+  /* change this varible */
+}
+
+.frame img{
+  width: var(--space);
+  height: var(--space);
+  margin: 10%;
+}
